@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 18px;
+    background-color: rgb(224, 216, 216);
+    text-transform: capitalize;
+}
+input{
+    
+}
+.wrapper{
+    max-width: 1024px;
+    margin: auto;
+    
+}
+/* css */
+header{
+    background-color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.head{
+   
+}
+
+   
+
+
+ label {
+      display: block;
+     margin-top: 15px;
+      font-weight: bold;
+      color: rgb(91, 85, 85);
+    }
+
+.maindiv{
+
+   max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.formdiv{
+  border-radius: 9px;
+  background-color: aliceblue;  
+ min-width: 400px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ flex-shrink:1 ;
+ box-shadow: 2px 5px 8px rgb(191, 187, 187);
+ transition: all 1s ease-in-out;
+
+}
+.formdiv:hover{
+    transform: scale(1.01);
+}
+.formdiv h3{
+  text-align: center; 
+  padding: 4px;
+}
+a{
+    display: block;
+    color: rgb(32, 172, 114);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#pas{
+    align-self: self-end;
+    margin-top: 10px;
+}
+input{
+     all: unset;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 8px;
+    background-color: rgb(239, 247, 255);
+    border-radius: 5px ;
+    border: 1px solid grey;
+     box-shadow: 0px 4px 5px grey; 
+    
+}
+ 
+.midpart{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.orpart{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   color: grey;
+}
+.div1{
+    height: 1px;
+    /* width: 100px; */
+
+  width: 50px;
+    background-color:gray;
+}
+.midpart button{
+    padding: 9px;
+    border-radius: 6px;
+    background-color: rgb(17, 93, 160);
+    color: white;
+    text-transform: capitalize;
+    border: 0px;
+    box-shadow: 0px 4px 5px grey;
+    
+}
+#nocol{
+    background-color: rgb(224, 232, 238);
+    color: #000;
+    font-weight: 500;
+    
+}
+.fa-brands{
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 7px;
+  color: rgb(65, 54, 54);
+}
+
+
+@media (max-width:678px) {
+    .formdiv{
+        padding: 20px 20px;
+    }
+    .coninus{
+    font-size: 15px;
+    text-align: center;
+   
+}
+.formdiv{
+     min-width: 200px; 
+    
+   
+}
+}
+
